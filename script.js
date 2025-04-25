@@ -22,6 +22,7 @@ function renderToDoList() {
   document.querySelectorAll(".js-delete-btn").forEach((deleteBtn, index) => {
     deleteBtn.addEventListener("click", () => {
       todoList.splice(index, 1);
+      localStorage.setItem("todos", JSON.stringify(todoList));
       renderToDoList();
     });
   });
