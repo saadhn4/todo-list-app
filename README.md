@@ -7,6 +7,7 @@ A simple, interactive To-Do List web application built with HTML, CSS, and JavaS
 ✅ Add tasks with a name and due date  
 ✅ Display tasks dynamically in a structured grid layout  
 ✅ Remove tasks with a "Delete" button  
+✅ Tasks remain even after user refreshes the page (localStroage implemented)
 ✅ Responsive and clean UI
 
 ## 🛠 Technologies Used
